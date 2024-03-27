@@ -1,0 +1,59 @@
+:root {
+    --main-dark-color: #2c2c35;
+    --main-light-color: rgb(184, 58, 121);
+    --main-text-color: #464646;
+}
+
+body {
+    background-color: var(--main-dark-color);
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    color: var(--main-text-color);
+}
+
+.palindrome-box {
+    background-color: white;
+    max-width: 500px;
+    height: inherit;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: .5em;
+    padding: 3em 1em;
+}
+
+.input-holder {
+    margin-top: 10%;
+}
+
+#text-input {
+    border: none;
+    border-bottom: solid 2px var(--main-dark-color);
+    font-size: 1em;
+    margin-right: 2%;
+}
+
+#text-input:focus {
+    border: none;
+    outline: none;
+    border-bottom: solid 2px var(--main-light-color);
+}
+
+#check-btn {
+    background-color: var(--main-light-color);
+    color: white;
+    width: 100px;
+    padding: 5px;
+    height: fit-content;
+    border-radius: 5%;
+    border: none;
+}
+
+#result {
+    margin-top: 10%;
+}
+
+#result strong {
+    color: var(--main-light-color);
+}
